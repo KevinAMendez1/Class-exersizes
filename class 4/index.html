@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <style>
+        body { padding: 30px;}
+    </style>        
+</head>
+<body>
+<div class="jumbotron text-center"> 
+    <button class="btn btn-primary" onclick="colorChange()">
+        Change Color!
+    </button>
+</div>
+
+
+
+
+
+
+<script>
+    //     var randomColor = Math.floor(Math.random()*16777215).toString(16);
+    // function colorChange() {
+    //     document.body.style.backgroundColor = "#" + randomColor;
+    // }
+    //works
+    const colorChange = () => {
+  const randomColor = Math.floor(Math.random()*16777215).toString(16);
+  document.body.style.backgroundColor = "#" + randomColor;
+}
+    </script>
+    
+</body>
+</html>
