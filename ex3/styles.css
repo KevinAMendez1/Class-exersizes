@@ -1,0 +1,30 @@
+.container {
+    min-height: 100vh;
+}
+h1 {
+    font-size: 3rem;
+    margin: 0 0 0.5em 0;
+    padding-top: 1.5em;
+}
+
+
+ 
+
+form  {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: clamp(275px, 20%, 700px);
+    margin: 0 auto;
+
+}
+
+input {
+    padding: 0.5em 1.25em;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    width: 100%;
+}
+.btn {
+    float: right;
+}
